@@ -9,7 +9,7 @@ import '../../domain/cardapio.dart';
 import '../../domain/pratos.dart';
 
 class RestauranteDataSource {
-  static const String urlBase = '192.168.18.108:8080';
+  static const String urlBase = '<ip>';
 
   Future<List<Restaurante>> buscarTodos() async {
     try {
